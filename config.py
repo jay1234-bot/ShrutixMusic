@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get from my.telegram.org/app
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "24173304"))
+API_HASH = getenv("API_HASH", "cd99b94d8661fa2912324c3cfbfac6c9")
 
 # Get from @BotFather
 BOT_TOKEN = getenv("BOT_TOKEN", "")
@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 LOGGER_ID = int(getenv("LOGGER_ID", "0"))
-OWNER_ID = int(getenv("OWNER_ID", "7574330905"))
+OWNER_ID = int(getenv("OWNER_ID", "8815585249"))
 
 # Heroku App Name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
@@ -40,12 +40,12 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/ShrutiBots"
+    "https://t.me/krishancensored"
 )
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/ShrutiSupportChat"
+    "https://t.me/censoredkrishan"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
